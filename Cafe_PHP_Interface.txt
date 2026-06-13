@@ -1,0 +1,23 @@
+Cafe Management System - PHP Interface
+
+File: db.php
+<?php
+$conn = mysqli_connect("localhost", "root", "", "cafe_db");
+if (!$conn) die("Connection Failed");
+?>
+
+File: index.php
+- Home page
+- Links to Customer, Menu and Orders pages
+
+File: customer.php
+- Add Customer Form
+- Insert customer into database
+
+File: menu.php
+- Add Menu Item Form
+- Insert menu item into database
+
+File: orders.php
+- Create Order Form
+- Insert order into database

@@ -1,0 +1,8 @@
+Cafe Management System
+
+Tables:
+1. Customer
+2. Menu
+3. Orders
+4. OrderDetails
+5. Employee
